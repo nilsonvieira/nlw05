@@ -24,7 +24,7 @@ export class CreateSettings1618973768197 implements MigrationInterface {
                     {
                         name: "updated_at",
                         type: "timestamp",   
-                        default: "now();"
+                        default: "now()"
                     },
                     {
                         name: "created_at",
@@ -39,5 +39,4 @@ export class CreateSettings1618973768197 implements MigrationInterface {
     public async down(queryRunner: QueryRunner): Promise<void> {
         await queryRunner.dropTable("settings");
     }
-
 }

@@ -1,5 +1,4 @@
 import { MigrationInterface, QueryRunner, Table, Timestamp } from "typeorm";
-
 export class CreateSettings1618973768197 implements MigrationInterface {
 
     public async up(queryRunner: QueryRunner): Promise<void> {
@@ -35,7 +34,6 @@ export class CreateSettings1618973768197 implements MigrationInterface {
             })
         );
     }
-
     public async down(queryRunner: QueryRunner): Promise<void> {
         await queryRunner.dropTable("settings");
     }

@@ -14,8 +14,8 @@ body {
   width: 153px;
   height: 56px;
 
-  background: #8257e6;
-  border-radius: 68px;
+  background: #57b9e6;
+  border-radius: 30px;
   text-align: center;
   color: #fff;
   outline: none;
@@ -45,7 +45,7 @@ body {
   width: 320px;
   height: 56px;
 
-  background: #8257e6;
+  background: #57b9e6;
   border-radius: 16px 16px 0px 0px;
 
   display: flex;
@@ -196,7 +196,7 @@ body {
 .first_email input {
   border: 1px solid #dddddd;
   box-sizing: border-box;
-  border-radius: 4px;
+  border-radius: 8px;
   height: 42px;
   width: 290px;
 }
@@ -209,7 +209,7 @@ input[type="text"]:focus {
   width: 121px;
   height: 40px;
 
-  background: #8257e6;
+  background: #57b9e6;
   border-radius: 4px;
   color: #fff;
   border: none;
@@ -251,7 +251,7 @@ input[type="text"]:focus {
 .btn_atd {
   cursor: pointer;
   color: #fff;
-  background: #b32a2a;
+  background: #66c7ba;
   border: none;
   height: 30px;
   padding: 10px;
@@ -329,7 +329,7 @@ input[type="text"]:focus {
 }
 
 .in_support {
-  background: #8d7aef;
+  background: #57b9e6;
   color: #fff;
   font-size: 17px;
 }
